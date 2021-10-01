@@ -7,7 +7,7 @@ env.read_env()
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': os.getenv('ENGINE'),
         'HOST': os.getenv('HOST'),
         'PORT': os.getenv('PORT'),
         'NAME': os.getenv('NAME'),
@@ -20,7 +20,7 @@ INSTALLED_APPS = ['datacenter']
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-ROOT_URLCONF = "project.urls"
+ROOT_URLCONF = 'project.urls'
 
 ALLOWED_HOSTS = ['*']
 
@@ -34,7 +34,7 @@ TEMPLATES = [
     },
 ]
 
-DEBUG = env.bool("DEBUG", default=False)
+DEBUG = env.bool('DEBUG', default=False)
 
 USE_L10N = True
 

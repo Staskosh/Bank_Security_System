@@ -10,6 +10,7 @@
 - Скачайте код
 - Добавьте в папку с кодом файл .env скрытые параметры из settings.py для доступа к БД, указанные ниже.
 ```bash
+ENGINE=here define the database 
 HOST=here is the host of server
 PORT=here is the port of server
 NAME=here is the name of server
