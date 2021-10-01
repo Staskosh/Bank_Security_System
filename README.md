@@ -8,7 +8,15 @@
 # Запуск
 
 - Скачайте код
-- Добавьте в папку с кодом файл .env скрытые параметры из settings.py для доступа к БД.
+- Добавьте в папку с кодом файл .env скрытые параметры из settings.py для доступа к БД, указанные ниже.
+```bash
+HOST=here is the host of server
+PORT=here is the port of server
+NAME=here is the name of server
+US=here is the username
+PASSWORD=here is the user password
+SECRET_KEY=here is the secret key of your site
+```
 - У вас должен быть установлен  Python3
 - Установите необходимые пакеты:
 ```bash
