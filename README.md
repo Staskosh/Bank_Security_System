@@ -17,6 +17,8 @@ NAME=here is the name of server
 US=here is the username
 PASSWORD=here is the user password
 SECRET_KEY=here is the secret key of your site
+DEBUG=True or False
+ALLOWED_HOSTS=hear is the list of allowed hosts
 ```
 - У вас должен быть установлен  Python3
 - Установите необходимые пакеты:
